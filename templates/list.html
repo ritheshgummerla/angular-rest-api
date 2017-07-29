@@ -1,0 +1,9 @@
+  <h2>Person list</h2>
+  <div class="well">
+    <button class="btn btn-primary" ng-click="getList()">Get Person List</button>
+    <div class="well" ng-repeat="d in data">
+      <p>id :{{d.id}}</p><br>
+      <p>title :{{d.title}}</p><br>
+      <p> body :{{d.body}}</p><br>
+    </div>
+  </div>
